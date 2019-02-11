@@ -40,7 +40,7 @@ const generateNoteDOM = function (note) {
     noteEl.appendChild(textElbody);
 
     // setup the link
-    noteEl.setAttribute("href", `/edit.html#${note.id}`);
+    noteEl.setAttribute("href", `https://aitcweb.github.io/notes-app/public/edit.html#${note.id}`);
     noteEl.classList.add("list-item");
     // setup the status message
     status.textContent = generateLastEdited(note.updatedAt);

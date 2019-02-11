@@ -33,7 +33,7 @@ bodyElement.addEventListener('input', (e) => {
 })
 removeElement.addEventListener('click', (e) => {
     removeNote(noteId)
-    location.assign('public/index.html')
+    location.assign('https://aitcweb.github.io/notes-app/public/index.html')
 })
 
 window.addEventListener('storage', (e) => {

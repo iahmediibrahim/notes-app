@@ -14,7 +14,7 @@ renderNotes()
 
 document.querySelector("#create-note").addEventListener("click", (e) => {
     const id = createNote()
-    location.assign(`public/edit.html#${id}`)
+    location.assign(`https://aitcweb.github.io/notes-app/public/edit.html#${id}`)
 });
 
 document.querySelector("#search-text").addEventListener("input", (e) => {
