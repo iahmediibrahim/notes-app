@@ -8,4 +8,4 @@ Notes app.
 - Add, delete, edit, filter functionalities.
 - using babel, webpack.
 
-<a href="https://aitcweb.github.io/notes-app/public/">view app</a>
+<a href="https://swethusiast.github.io/notes-app/public/">view app</a>
